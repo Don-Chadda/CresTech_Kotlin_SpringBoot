@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CrestechApplication
+class CresTechApplication
 
 fun main(args: Array<String>) {
-	runApplication<CrestechApplication>(*args)
+	runApplication<CresTechApplication>(*args)
 }
