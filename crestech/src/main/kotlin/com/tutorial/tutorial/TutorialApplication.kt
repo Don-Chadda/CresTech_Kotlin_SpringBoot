@@ -1,11 +1,11 @@
-package com.crestech.tutorials.springboot.crestech
+package com.tutorial.tutorial
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CresTechApplication
+class TutorialApplication
 
 fun main(args: Array<String>) {
-	runApplication<CresTechApplication>(*args)
+	runApplication<TutorialApplication>(*args)
 }

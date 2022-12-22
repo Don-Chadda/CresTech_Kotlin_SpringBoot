@@ -1,6 +1,6 @@
-package com.crestech.tutorials.springboot.crestech.model
+package com.tutorial.tutorial.model
 
-data class Bank(
+data class Bank (
     val accountNumber: String,
     val trust: Double,
     val transactionFee: Int

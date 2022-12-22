@@ -7,7 +7,7 @@ plugins {
 	kotlin("plugin.spring") version "1.7.21"
 }
 
-group = "com.crestech.tutorials.springboot"
+group = "com.tutorial"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
@@ -21,6 +21,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("io.mockk:mockk:1.10.4")
 }
 
 tasks.withType<KotlinCompile> {
